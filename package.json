@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-rules-angular",
+  "author": "Ansuman Mishra",
+  "license": "MIT",
+  "version": "0.0.3",
+  "main": "dist/index.js",
+  "description": "ES Lint rules for Angular for checking no translation and native use of private variables",
+  "keywords": ["ES Lint", "Angular"],
+  "dependencies": {
+    "@angular-eslint/template-parser": "^16.3.1",
+    "@typescript-eslint/utils": "^6.1.0"
+  },
+  "peerDependencies": {
+    "@types/eslint": "^8.44.7",
+    "eslint": "^8.45.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.7",
+    "@typescript-eslint/parser": "^6.1.0",
+    "@typescript-eslint/rule-tester": "^6.1.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansumanmishra/eslint-plugin-rules-angular.git"
+  }
+}
