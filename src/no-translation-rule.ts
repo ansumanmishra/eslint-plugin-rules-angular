@@ -26,7 +26,7 @@ const missingTranslationRule = {
             messageOd: 'transloco',
             message: '"{{ nodeValue }}" should be piped in transloco',
             data: {
-              nodeValue: node.value.replace(/[\n]+/g, '').replace(/[ ]+/g, '').trim()
+              nodeValue: node.value.replace(/\n+/g, '').replace(/ +/g, '').trim()
             }
           })
         }

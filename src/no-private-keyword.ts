@@ -16,7 +16,6 @@ const noPrivateKeywordRule = {
                         node,
                         message: `Private class property '${node.key.name}' should use '#' instead of the keyword private.`,
                         /*fix(fixer) {
-                            // provide a fix (if fixable is set to 'code' or 'whitespace')
                             const range = [node.key.range[0], node.key.range[0]];
                             const text = '#' + node.key.name;
                             return fixer.replaceTextRange(range, text);
