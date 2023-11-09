@@ -1,4 +1,4 @@
-## ES LInt Rule for Angular
+## ES custom Linting Rules for Angular
 ### This ES Lint rule checks for
     - Texts without translation using "transloco"
     - Usage of # instead of using private keyword for defining properties and methods
@@ -9,7 +9,7 @@
     npm i eslint-plugin-rules-angular
 ```
 
-Usage:
+#### Usage
 To check texts without translations
 
 ```json
@@ -38,8 +38,8 @@ To check native use of private variables
     }
 ```
 
-Note:
-If the installation fails with conflicts, use "--force" flag
+#### Note
+If the installation fails with version conflicts, use "--force" flag
 ```code
-    npm i eslint-plugin-rules-angular
+    npm i eslint-plugin-rules-angular --force
 ```

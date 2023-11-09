@@ -2,7 +2,7 @@
   "name": "eslint-plugin-rules-angular",
   "author": "Ansuman Mishra",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "description": "ES Lint rules for Angular for checking no translation and native use of private variables",
   "keywords": ["ES Lint", "Angular"],
